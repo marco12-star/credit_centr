@@ -8,6 +8,13 @@
 	.item__title{
 		text-align: center;
 	}
+	.nav img{
+		width: 150px;
+	}
+	.nav a{
+		font-size: 15px;
+		white-space: nowrap;
+	}
 }
 @media all and (max-width: 800px) {
 	.navbar{
@@ -17,12 +24,21 @@
 		display: flex;
 		justify-content: space-between;
 	}
+	.banner{
+		display: none;
+	}
+	.mobile__banner{
+		background: url(../img/banner.png) 0 0/cover no-repeat;
+    padding-bottom: 36%;
+	}
 	.credit__info{
 		padding: 0;
 	}
-}
-@media all and (max-width: 768px) {
 	.footer__nav{
 		flex-direction: row;
-	}
+}
+}
+ 
+@media all and (max-width: 520px){
+	
 }
