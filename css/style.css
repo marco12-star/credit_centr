@@ -46,6 +46,10 @@ li{
 	background: none;
 }
 
+[type="button"], [type="reset"], [type="submit"], button {
+    -webkit-appearance: button;
+}
+
 a{
 	padding: 15px 0;
 	color: #8AC44B;
