@@ -50,6 +50,10 @@ li{
     -webkit-appearance: none;
 }
 
+.navbar-collapse li{
+	margin: 0;
+}
+
 a{
 	padding: 15px 0;
 	color: #8AC44B;
