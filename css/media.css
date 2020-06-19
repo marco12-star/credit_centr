@@ -37,6 +37,8 @@
 	.footer__nav{
 		flex-direction: row;
 }
+	.dropdown-menu{
+		border: none;
 }
  
 @media all and (max-width: 520px){
