@@ -42,6 +42,10 @@ li{
 	color: #8AC44B;
 }
 
+.dropdown-item{
+	background: none;
+}
+
 a{
 	padding: 15px 0;
 	color: #8AC44B;
