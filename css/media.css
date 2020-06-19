@@ -1,0 +1,28 @@
+@media all and (max-width: 990px){
+	.news__item_mobile{
+		display: block;
+	}
+	.news__items .desk{
+		display: none;
+	}
+	.item__title{
+		text-align: center;
+	}
+}
+@media all and (max-width: 800px) {
+	.navbar{
+		display: none;
+	}
+	.navbar-light{
+		display: flex;
+		justify-content: space-between;
+	}
+	.credit__info{
+		padding: 0;
+	}
+}
+@media all and (max-width: 768px) {
+	.footer__nav{
+		flex-direction: row;
+	}
+}
