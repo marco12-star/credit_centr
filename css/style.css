@@ -509,7 +509,7 @@ ul li {
 }
 
 .footer a{
-
+	white-space: nowrap;
 	color: #fff;
 	text-decoration-color: #fff;
 }
