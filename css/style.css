@@ -1,3 +1,4 @@
+
 body{
 	font-family: 'Rubik', sans-serif;
 	color: #8AC44B;
@@ -28,17 +29,30 @@ li{
 	display: none;
 }
 
+.navbar-light .navbar-nav .nav-link{
+	color: #8AC44B;
+	padding: 5px 0;
+}
+
+.navbar{
+	padding: 1.5rem 0;
+}
+
 .navbar-light .navbar-toggler{
 	border: none;
 	color: #8AC44B;
 }
 
-.navbar-light .navbar-nav .nav-link{
-	color: #8AC44B;
+.dropdown-item{
+	background: none;
 }
 
-.navbar{
-	padding: 1.5rem 0;
+.nav-item i{
+	padding-left: 5px;
+}
+
+.navbar-nav li{
+	margin: 0;
 }
 
 a{
@@ -53,7 +67,7 @@ a:hover{
 }
 
 a:not([href]):not([tabindex]){
-	padding: 15px 0;
+	padding: 5px 0;
 }
 
 .btn{
@@ -126,7 +140,6 @@ a:not([href]):not([tabindex]){
 }
 .dws-menu li:hover > ul{
  display: block;
- z-index: 999;
 }
 
 
@@ -135,23 +148,31 @@ a:not([href]):not([tabindex]){
 
 /* HEADER END */
 
+.credit{
+	padding: 1em 0;
+}
 
-
-/* .banner {
+.banner {
     background: url(../img/banner.png) 0 0/cover no-repeat;
     padding-bottom: 36%;
-} */
+}
 
 .credit__info_title{
 	margin-bottom: 30px;
+	color: #8AC44B;
 	font-weight: 700;
 }
 
 .credit__info{
 	margin: 50px auto;
-	padding: 1em 3em;
+	padding: 1em 4em;
 	color: #000;
-	background: rgba(156, 156, 156, .1);
+	background: rgba(204, 204, 204, .1);
+}
+
+.input-group{
+	padding: 0;
+	margin: 0 auto;
 }
 
 .credit__items{
@@ -164,127 +185,54 @@ a:not([href]):not([tabindex]){
 .credit__title{
 	font-size: 24px;
 	font-weight: 700;
+}
+
+.item__title{
 	color: #000;
+	font-size: 16px;
 }
 
-.credit__info_title{
-	padding-top: 2em;
-	color: #000;
-}
-
-.offers_desk .credit__title{
-	color: #8AC44B;
-	font-size: 20px;
-}
-
-.credit__links{
+.btn-light{
 	margin: 0 auto;
-	padding-bottom: 30px;
-	-webkit-box-shadow: 0px 6px 11px -10px rgba(0,0,0,0.43);
-    -moz-box-shadow: 0px 6px 11px -10px rgba(0,0,0,0.43);
-    box-shadow: 0px 6px 11px -10px rgba(0,0,0,0.43)
+	padding: 15px;
+	-webkit-box-shadow: 0px 4px 15px -9px rgba(0,0,0,0.41);
+	-moz-box-shadow: 0px 4px 15px -9px rgba(0,0,0,0.41);
+	box-shadow: 0px 4px 15px -9px rgba(0,0,0,0.41);
+	background: transparent;
 }
 
-.credit__link{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
+.btn-light i{
+	padding-left: 2em;
+	font-size: 20px;
+	color: #8AC44B;
 }
 
-.credit__link_item{
-	margin: 5px 0;
+.form-control{
+	border: none;
+	-webkit-box-shadow: 0px 4px 15px -9px rgba(0,0,0,0.41);
+	-moz-box-shadow: 0px 4px 15px -9px rgba(0,0,0,0.41);
+	box-shadow: 0px 4px 15px -9px rgba(0,0,0,0.41);
 }
 
-.mobile_link{
-	display: none;
+input[type="text"]::-webkit-input-placeholder { color:#000; font-weight: 700;
 }
-
-.credit__link a {
-    padding: 15px 0;
-    white-space: nowrap;
-}
+   input[type="text"]:-ms-input-placeholder { color: #000; font-weight: 700;
+   }
+   input[type="text"]::-ms-input-placeholder { color:#000; font-weight: 700;
+   }
+   input[type="text"]::placeholder { color: #000; font-weight: 700;
+   }
 
 .btn-success{
-	padding: 15px 0;
+	padding: 1em 4em;
+	margin-top: 20px;
 	background: #8AC44B;
 	border:none;
 	border-radius: initial;
 }
 
-.offers__item {
-	padding: 1em;
-    -webkit-box-shadow: 0px 6px 11px -10px rgba(0,0,0,0.43);
-    -moz-box-shadow: 0px 6px 11px -10px rgba(0,0,0,0.43);
-    box-shadow: 0px 6px 11px -10px rgba(0,0,0,0.43);
-}
-
-.offers__item_img{
-	padding-bottom: 23%;
-	background: url(../img/o1.png) 0 100%/cover no-repeat;
-}
-
-.offers__item_img1{
-	padding-bottom: 23%;
-	background: url(../img/kredito.png) 0 100%/cover no-repeat;
-}
-.offers__item_img2{
-	padding-bottom: 23%;
-	background: url(../img/o1.png) 0 100%/cover no-repeat;
-}
-.offers__item_img3{
-	padding-bottom: 23%;
-	background: url(../img/lime.png) 0 100%/cover no-repeat;
-}
-.offers__item_img4{
-	padding-bottom: 23%;
-	background: url(../img/creditter.png) 0 100%/cover no-repeat;
-}
-.offers__item_img5{
-	padding-bottom: 23%;
-	background: url(../img/o1.png) 0 100%/cover no-repeat;
-}
-
-.offers__item_info .offers__info_row img{
-	opacity: .5;
-}
-
-.offers__item_info span{
-	font-weight: 700;
-	color: #8AC44B;
-}
-
-.offers__item_info .criterion{
-	color: #000;
-}
-
-.offers__item_btn p{
-	margin: 0;
-	color: #000;
-}
-
-
-.offer__circle a{
-	padding: 0;
-	font-size: 16px;
-	color: #000;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	-ms-align-items: center;
-	align-items: center;
-}
-
-.offer__circle a img{
-	height: 25px;
-	width: 30px;
-}
 .offers{
 	padding: 2em 0;
-	display: none;
 }
 
 .offer__items > .offer__item + .offer__item{
@@ -292,6 +240,7 @@ a:not([href]):not([tabindex]){
 }
 
 .offer__item{
+	margin-bottom: 2em;
 	-webkit-box-shadow: 0px 2px 24px -16px rgba(0,0,0,0.44);
 	-moz-box-shadow: 0px 2px 24px -16px rgba(0,0,0,0.44);
 	box-shadow: 0px 2px 24px -16px rgba(0,0,0,0.44);
@@ -348,7 +297,7 @@ a:not([href]):not([tabindex]){
 }
 
 .btn-dark{
-	padding: 15px 0;
+	padding: 15px 85px;
 	background: transparent;
 	border: 1px solid #8AC44B;
 	color: #000;
@@ -360,6 +309,37 @@ a:not([href]):not([tabindex]){
     border-color: #1e7e34;
 }
 
+.news{
+	padding: 3em 0;
+}
+
+.news__item{
+	color: #000;
+	font-size: 16px;
+}
+
+.news__item_img0{
+	background: url(../img/pc.png) 0 100%/cover no-repeat;
+    padding-bottom: 67%;
+}
+.news__item_img1{
+	background: url(../img/russia.png) 0 100%/cover no-repeat;
+    padding-bottom: 67%;
+}
+.news__item_img2{
+	background: url(../img/micro.png) 0 100%/cover no-repeat;
+    padding-bottom: 67%;
+}
+
+.news__item_title{
+	padding: .8em 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.news__item_mobile{
+	display: none;
+}
 
 
 * {
@@ -501,14 +481,18 @@ ul li {
 	padding: 3em 0;
 }
 
+.info__first{
+	color: #8AC44B;
+}
 
 .info__text{
 	margin: 0 auto;
 	padding: 1em 3em;
-	background: rgba(156, 156, 156, .1);
+	background: rgba(204, 204, 204, .1);
 	color: #000;
 	font-size: 16px;
 }
+
 
 
 .footer{
@@ -518,24 +502,21 @@ ul li {
 	font-size: 14px;
 }
 
-
-.footer a{
-	padding: 10px 0;
-	color: #fff;
-	text-decoration-color: #fff;
-	white-space: nowrap;
-}
-
 .footer__nav{
 	flex-direction: column;
 }
 
-.footer .footer__nav ul{
-	margin: 0;
-	margin-right: 2em;
+.footer a{
+	white-space: nowrap;
+	color: #fff;
+	text-decoration-color: #fff;
+}
+
+.footer__nav ul{
+	margin: 0 20px 0 0;
 	padding: 0;
 }
 
-.footer .footer__nav ul li{
-	margin-bottom: 10px;
+.footer__nav ul li{
+	margin: 3px 0;
 }
