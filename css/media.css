@@ -1,4 +1,4 @@
-@media all and (max-width: 990px){
+@media all and (max-width: 991px){
 	.news__item_mobile{
 		display: block;
 	}
@@ -17,6 +17,9 @@
 	}
 	.credit__btn, .credit__item{
 		margin: 1rem 0;
+	}
+	.dws-menu > ul li a{
+		margin: 0 10px;
 	}
 }
 @media all and (max-width: 800px) {
