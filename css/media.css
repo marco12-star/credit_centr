@@ -15,14 +15,23 @@
 		font-size: 15px;
 		white-space: nowrap;
 	}
+	.credit__btn, .credit__item{
+		margin: 1rem 0;
+	}
 }
 @media all and (max-width: 800px) {
 	.navbar{
 		display: none;
 	}
+	.container{
+		max-width: initial;
+	}
 	.navbar-light{
 		display: flex;
 		justify-content: space-between;
+	}
+	.navbar-light .dropdown-menu{
+		border:none;
 	}
 	.banner{
 		display: none;
@@ -34,13 +43,8 @@
 	.credit__info{
 		padding: 0;
 	}
+
 	.footer__nav{
 		flex-direction: row;
 }
-	.dropdown-menu{
-		border: none;
-}
- 
-@media all and (max-width: 520px){
-	
 }
