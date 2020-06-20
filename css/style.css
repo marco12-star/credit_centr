@@ -390,6 +390,7 @@ ul li {
 }
 .the-arrow.-right > .shaft {
   width: 20px;
+	margin-bottom: 5px;
   transition-delay: 0.2s;
 }
 .the-arrow.-right > .shaft:before, .the-arrow.-right > .shaft:after {
