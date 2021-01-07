@@ -42,7 +42,9 @@ li{
 	border: none;
 	color: #8AC44B;
 }
-
+.dropdown-menu.show {
+	width: 90%;
+}
 .dropdown-item{
 	background: none;
 }
